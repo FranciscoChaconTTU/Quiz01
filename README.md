@@ -11,7 +11,7 @@ def matVec(matrix,vector):
       for k in range(len(vector)):
         d=[]
         for l in range(len(vector[k])):
-          d.append(matrix[i][j]*vector[j][k])
+          d.append(matrix[i][j]*vector[k][l])
     c.append(d)
   return f
 
